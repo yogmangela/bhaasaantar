@@ -20,18 +20,17 @@ The app is built using **Flask** for the backend and **Hugging Face's MarianMT m
 
 ## 📂 Project Structure
 ```
-translator-app/
+bhaasaantar/
 │── static/
-│    └── styles.css   # CSS file for styling
+│    └── styles.css      # CSS file for styling
 │── templates/
-│    ├── index.html   # Main UI
-│── app.py  # Flask backend
-│── requirements.txt  # List of dependencies
-│── Dockerfile  # Docker setup
-│── docker-compose.yml  # Docker Compose file
-└── README.md  # Project Documentation
+│    ├── index.html      # Webpage UI
+│── app.py               # Flask Backend
+│── requirements.txt     # Python Dependencies
+│── Dockerfile           # Docker Setup
+│── docker-compose.yml   # Docker Compose Configuration
+│── README.md            # Project Documentation
 ```
-
 ---
 
 ## 🔧 Installation & Setup
