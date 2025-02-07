@@ -1,6 +1,14 @@
 version: '3'
+
 services:
-  translator-app:
+  flask-app:
     build: .
     ports:
-      - "5000:5000"
+      - "8081:8081"
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_RUN_HOST=0.0.0.0
+      - FLASK_RUN_PORT=8081
+    volumes:
+      - .:/app
+    restart: always
